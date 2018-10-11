@@ -11,8 +11,8 @@ function ToStr(var AX; ATypeInfo: PTypeInfo): AnsiString;
 Automatically converts any value to a string representation, including records and arrays, in the same spirit of 'print' functions found in scripting languages. Its usefull for logging and debugging.
 
 ### Parametes
-AX -> The variable to convert to string.
-ATypeInfo -> The type information returned by 'TypeInfo' compiler intrinsic.
+* AX: The variable to convert to string.
+* ATypeInfo: The type information returned by 'TypeInfo' compiler intrinsic.
 
 ### Return
 The string representation of the first parameter.
