@@ -7,17 +7,17 @@ Utility functions based on Object Pascal's runtime type information (RTTI)
 ```pascal
 function ToStr(var AX; ATypeInfo: PTypeInfo): AnsiString;
 ```
-**Description**
+### Description
 Automatically converts any value to a string representation, including records and arrays, in the same spirit of 'print' functions found in scripting languages. Its usefull for logging and debugging.
 
-**Parametes**
+### Parametes
 AX -> The variable to convert to string.
 ATypeInfo -> The type information returned by 'TypeInfo' compiler intrinsic.
 
-**Return**
+### Return
 The string representation of the first parameter.
 
-**Example:**
+### Example
 ```pascal
 program test;
 uses TypeUtils;
